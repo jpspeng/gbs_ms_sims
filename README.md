@@ -30,7 +30,7 @@ estimate_ve_surrogate(df_obs,
                       learner = "glm", 
                       ct_bias_values = c(0,0.001), 
                       uc_bias_values = c(0,-0.001), 
-                      success_criteria = c(0.3, NA))
+                      success_criterion = c(0.3, NA))
 
 ```
 
