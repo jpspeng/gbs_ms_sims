@@ -1,7 +1,7 @@
 # Simulation code for "Surrogate Endpoint Based Provisional Approval Causal Roadmap"
 
 This repository contains code for "A Surrogate Endpoint Based Provisional Approval Causal Roadmap" by 
-Gilbert et al. (under review). 
+Gilbert et al. (Biostatistics, 2025). 
 
 Simulation code is in the `ms_sim.R` file. Most of the code consists of helper functions. The last section "Some Sample
 Code to Try" has a few lines of code to generate simulated datasets, run the estimators, obtain bootstrap and sandwich 
