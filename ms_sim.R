@@ -876,7 +876,7 @@ one_step_estimator <- function(df_obs, df_p3, flexible = T, ct_bias = 0,
   df_obs <- df_obs %>% 
     
     mutate(
-      phi0 = (1 / est_P_Z_0) * (1 / est_P_A) * (P_Z0A0_pred / P_Z1A0_pred) * (Y - g_pred),
+      phi0 = (1 / est_P_Z_0) * (1 / (1 - est_P_A)) * (P_Z0A0_pred / P_Z1A0_pred) * (Y - g_pred),
       phi1 = (1 / est_P_Z_0) * (1 / est_P_A) * (P_Z0A1_pred / P_Z1A0_pred) * (Y - g_pred) 
     )
   
